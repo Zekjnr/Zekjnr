@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title> Devolpers  Hub </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com//css2? family=poppins:wght@100;200;300;400;500;600;700&display=swap"rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	
+</head>
+<body>
+	<section class="header">
+		
+		<nav>
+			<a href="index.html"><img src="images2/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+	     
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+		     	<ul>
+			     	<li><a href="">HOME</a></li>
+			     	<li><a href="">ABOUT</a></li>
+			     	<li><a href="">COURSE</a></li>
+			     	<li><a href="">BLOG</a></li>
+			     	<li><a href="">CONTACT</a></li>
+			     </ul>	
+			</div>
+			
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Developers Hub</h1>
+			<p>Making websites is now one of the easiest thing in world.You just need<br> to learn the basic codes neccessary....(I.E, HTML, CSS,Javasript.)and you are good to go...</p>
+			<a href="" class="hero-btn">Visit Us To Know More...</a>
+		</div>
+		
+	</section>
+	<!----------javascript for toggle menu---->
+	<script>
+	    var navLinks= document.getElementById("navLink");
+	function showmenu(){
+		navLinks.style.right ="0";
+	}
+		
+		function hidemenu(){
+			navLinks.style.right ="-200px";	
+		}
+		
+	</script>
+	
+	
+</body>
+</html>
